@@ -85,6 +85,17 @@ WSGI_APPLICATION = 'djangosample.wsgi.application'
 #    }
 #}
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'apps-db',
+#        'USER': 'apps-user',
+#        'PASSWORD': 'appsPwd',
+#        'HOST': 'mysql-db',
+#        'PORT': 3306,
+#    }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
