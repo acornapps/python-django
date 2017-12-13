@@ -2,8 +2,7 @@ FROM python:3
 ENV PYTHONUNBUFFERED 1
 MAINTAINER acornsoft <skyikho@acornsoft.com>
 
-RUN \
-    apt-get update &&\
+RUN apt-get update &&\
     apt-get -y install -y --no-install-recommends apt-utils\
         libpq-dev \
         python-dev
